@@ -1,0 +1,80 @@
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
+	.nav-area li {
+		display: inline-block;
+	}
+
+		.nav-area li a {
+			color: #ffffff;
+			text-decoration: none;
+			padding: 5px 20px;
+			font-size: 14px;
+		}
+
+			.nav-area li a hover {
+				color: #000000;
+				background: #333333;
+			}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Bellezza', sans-serif;
+	background-image: url(https://www.uml.edu/Images/math-equations_tcm18-331050.jpg?w=x);
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	color: #ffffff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+button {
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border: 5px solid #ffffff;
+	padding: 30px 90px;
+	border-radius: 20px;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+	button:hover {
+		background-color: #000000;
+	}
+
+.test-info {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 50px 0;
+}
+
+.test-text {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
